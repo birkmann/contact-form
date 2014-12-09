@@ -14,11 +14,11 @@
 	$success = mail($ToEmail, $EmailSubject, $Body, $Header);
 
 	if ($success){
-		 print "<meta http-equiv=\"refresh\" content=\"0;URL=../index.html\">";
+		 print "<meta http-equiv=\"refresh\" content=\"0;URL=../thanks.html\">";
 	}
 
 	else {
-		print "<meta http-equiv=\"refresh\" content=\"0;URL=../index.html\">";
+		print "<meta http-equiv=\"refresh\" content=\"0;URL=../error.html\">";
 	}
 
 ?>
